@@ -4,7 +4,6 @@ class Knight:
         self.hp = knight_data["hp"]
         self.power = knight_data["power"]
         self.protect = 0
-
         self.apply_armour(knight_data["armour"])
         self.apply_weapon(knight_data["weapon"])
         self.apply_potion(knight_data["potion"])
